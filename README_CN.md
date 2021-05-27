@@ -50,7 +50,7 @@ Forward 的环境依赖如下：
 
 Forward 使用 [easylogging++](https://github.com/amrayn/easyloggingpp) 作为日志功能, 并使用 `forward_log.conf` 作为日志配置文件. 
 
-- 如果 `forward_log.conf` 能在工作目录被找到, 则 Forward 将使用这个配置文件. (参考 [Using-configuration-file](https://github.com/amrayn/easyloggingpp#using-configuration-file)).
+- 如果 `forward_log.conf` 能在工作目录被找到, 则 Forward 将使用这个配置文件. (参考 [Using-configuration-file](https://github.com/amrayn/easyloggingpp#using-configuration-file)). (在运行的路径下，创建 forward_log.conf文件, 则运行时会产生Forward.log日志在当前文件夹)
 > forward_log.conf
 ```
 * GLOBAL:
